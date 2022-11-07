@@ -5,8 +5,7 @@ import Button from './Button';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  //<React.StrictMode>
     <App />
-    <Button text={'버튼'} />
-  </React.StrictMode>
+  //</React.StrictMode>
 );
