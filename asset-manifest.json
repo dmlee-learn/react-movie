@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/dmlee-learn/react-movie/static/js/main.a639218f.js",
-    "index.html": "/dmlee-learn/react-movie/index.html",
-    "main.a639218f.js.map": "/dmlee-learn/react-movie/static/js/main.a639218f.js.map"
+    "main.js": "/react-movie/static/js/main.a639218f.js",
+    "index.html": "/react-movie/index.html",
+    "main.a639218f.js.map": "/react-movie/static/js/main.a639218f.js.map"
   },
   "entrypoints": [
     "static/js/main.a639218f.js"
