@@ -1,7 +1,7 @@
 import {useState, useEffect} from "react";
 import ItemMovie from "../component/item/ItemMovie";
 
-function Home() {
+function Movie() {
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]);
 
@@ -20,7 +20,8 @@ function Home() {
             <div>
               {movies.map((data) => (
                 <ItemMovie 
-                  key={data.id} 
+                  key={data.id}
+                  id={data.id} 
                   title={data.title} 
                   rating={data.rating} 
                   cover={data.small_cover_image} 
@@ -34,4 +35,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Movie;

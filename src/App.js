@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./router/Home";
+import Movie from "./router/Movie";
 import Detail from "./router/Detail";
 
 function App() {  
   return (
       <Router>
         <Routes>
-          <Route path="/hello" element={<h1>hello</h1>} />
-          <Route path="/" element={<Home />} />
-          <Route path="/detail" element={<Detail />} />
+          <Route path={`${process.env.PUBLIC_URL}/`} element={<div><h1>hello</h1><Link to="/movie">List</Link></div>} />
+          <Route path={`/movie`} element={<Movie />} />
+          <Route path={`/movie/:id`} element={<Detail />} />
         </Routes>  
       </Router>
   );
